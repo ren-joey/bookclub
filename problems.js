@@ -5,6 +5,7 @@ const problemList = {
     1741: 'https://leetcode.com/problems/find-total-time-spent-by-each-employee/',
     2235: 'https://leetcode.com/problems/add-two-integers/',
     1693: 'https://leetcode.com/problems/daily-leads-and-partners/',
+
     // week2-220719
     1920: 'https://leetcode.com/problems/build-array-from-permutation/',
     1929: 'https://leetcode.com/problems/concatenation-of-array/',
