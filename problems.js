@@ -17,4 +17,6 @@ const problemList = {
     2114: 'https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/',
     2160: 'https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/',
     1512: 'https://leetcode.com/problems/number-of-good-pairs/'
+
+    // for PR
 };
