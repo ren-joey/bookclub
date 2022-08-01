@@ -8,7 +8,7 @@ Memory Usage: 13.8 MB, less than 86.72% of Python3 online submissions for Add Tw
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution:
+class Solution1:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         head = ListNode()
         tail = head
@@ -41,3 +41,14 @@ class Solution:
             tail = tail.next
 
         return head
+
+class Solution2:
+    def addTwoNumbers(self, l1, l2):
+        def toint(node):
+            return node.val + 10 * toint(node.next) if node else 0
+        def tolist(n):
+            node = ListNode(n % 10)
+            if n > 9:
+                node.next = tolist(n / 10)
+            return node
+        return tolist(toint(l1) + toint(l2))
