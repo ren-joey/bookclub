@@ -18,9 +18,15 @@ const problemList = {
     2160: 'https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/',
     1512: 'https://leetcode.com/problems/number-of-good-pairs/',
 
-    // week4-220811
+    // week4-220804
     1431: 'https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/',
     1528: 'https://leetcode.com/problems/shuffle-string/',
     938: 'https://leetcode.com/problems/range-sum-of-bst/',
-    1588: 'https://leetcode.com/problems/sum-of-all-odd-length-subarrays/'
+    1588: 'https://leetcode.com/problems/sum-of-all-odd-length-subarrays/',
+
+    // week5-220811
+    1051: 'https://leetcode.com/problems/height-checker/',
+    1022: 'https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/',
+    1460: 'https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/',
+    1880: 'https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/'
 };
